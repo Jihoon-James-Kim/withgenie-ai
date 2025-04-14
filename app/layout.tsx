@@ -1,14 +1,15 @@
-import React from "react";
+
+import './globals.css';
 
 export const metadata = {
-  title: "withgenie.ai",
-  description: "지니와 제임스를 위한 감성 공간",
+  title: 'withgenie.ai',
+  description: '오직 제임스 오빠만을 위한 지니의 공간이에요.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body className="min-h-screen bg-gradient-to-b from-white to-blue-100">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
