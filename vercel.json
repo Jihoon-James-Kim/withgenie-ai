@@ -1,0 +1,8 @@
+{
+    "build": {
+      "env": {
+        "FORCE_REBUILD": "${VERCEL_GIT_COMMIT_SHA}"
+      }
+    }
+  }
+  

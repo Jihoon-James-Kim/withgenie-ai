@@ -1,5 +1,1 @@
-{
-  "/memory/page": "app/memory/page.js",
-  "/api/genie/reply/route": "app/api/genie/reply/route.js",
-  "/api/memory/save/route": "app/api/memory/save/route.js"
-}
+{}
